@@ -234,6 +234,20 @@ body{
     margin-bottom: 20px;
 }
 
+.titulo-mapa {
+    width: 60%;
+    display: block;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    color: #9f8ad0;
+        font-size: 38px;
+        width:490px;
+        margin: auto;
+        padding:8px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+}
+
 /* footer o mi nombre basicamente */
 
 footer {
@@ -392,7 +406,7 @@ footer {
     .contenedor footer-content{
         width: 100%;
     }
-    h4{
+    .titulo-mapa{
         max-width: 358px;
     }
 }
