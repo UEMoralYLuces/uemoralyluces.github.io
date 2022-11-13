@@ -227,19 +227,6 @@ body{
     font-weight: 400;
 }
 
-.titulo-mapa {
-    width: 60%;
-    display: block;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    color: #9f8ad0;
-        font-size: 38px;
-        width:490px;
-        margin:0px auto;
-        padding:8px;
-        text-align: center;
-        margin-bottom: 20px;
-}
-
 .mapa {
     display: flex;
     justify-content: center;
@@ -373,6 +360,9 @@ footer {
     body {
         width: fit-content;
     }
+    .subtitulo2 {
+        max-width: 358px;
+    }
     .menu-navegacion{
         width: 26%;
     }
@@ -385,7 +375,7 @@ footer {
     }
 
     .subtitulo{
-        font-size: 30px;
+        max-width: 330px;
     }
     .agregar-imagen{
         width: 95%;
@@ -401,6 +391,9 @@ footer {
     }
     .contenedor footer-content{
         width: 100%;
+    }
+    h4{
+        max-width: 358px;
     }
 }
 
